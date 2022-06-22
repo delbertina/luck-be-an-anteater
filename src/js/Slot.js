@@ -6,19 +6,19 @@ export default class Slot {
     Symbol.preload();
 
     this.currentSymbols = [
-      ["death_star", "death_star", "death_star"],
-      ["death_star", "death_star", "death_star"],
-      ["death_star", "death_star", "death_star"],
-      ["death_star", "death_star", "death_star"],
-      ["death_star", "death_star", "death_star"],
+      ["Apple", "Apple", "Apple"],
+      ["Apple", "Apple", "Apple"],
+      ["Apple", "Apple", "Apple"],
+      ["Apple", "Apple", "Apple"],
+      ["Apple", "Apple", "Apple"],
     ];
 
     this.nextSymbols = [
-      ["death_star", "death_star", "death_star"],
-      ["death_star", "death_star", "death_star"],
-      ["death_star", "death_star", "death_star"],
-      ["death_star", "death_star", "death_star"],
-      ["death_star", "death_star", "death_star"],
+      ["Apple", "Apple", "Apple"],
+      ["Apple", "Apple", "Apple"],
+      ["Apple", "Apple", "Apple"],
+      ["Apple", "Apple", "Apple"],
+      ["Apple", "Apple", "Apple"],
     ];
 
     this.container = domElement;

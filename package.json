@@ -1,10 +1,10 @@
 {
-  "name": "html5-slot-machine",
-  "description": "Modern casino slot machine game using only plain JavaScript (Web Animations API)",
-  "version": "1.0.0",
+  "name": "luck-be-an-anteater",
+  "description": "Slot machine strategy game inspired by Luck Be a Landlord ",
+  "version": "0.0.1",
   "license": "MIT",
-  "author": "Johannes Kronmüller <hello@johakr.me> (https://johakr.me/)",
-  "repository": "johakr/html5-slot-machine",
+  "author": "delbertina",
+  "repository": "delbertina/luck-be-an-anteater",
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack serve --mode development",
