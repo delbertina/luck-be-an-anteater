@@ -1,6 +1,6 @@
 (() => {
-  var t = {
-      335: (t, e, n) => {
+  var e = {
+      335: (e, t, n) => {
         var r = {
           "./Apple.svg": 297,
           "./Avocado.svg": 535,
@@ -19,152 +19,152 @@
           "./Tomato.svg": 585,
           "./Watermelon.svg": 393,
         };
-        function o(t) {
-          var e = i(t);
-          return n(e);
+        function o(e) {
+          var t = i(e);
+          return n(t);
         }
-        function i(t) {
-          if (!n.o(r, t)) {
-            var e = new Error("Cannot find module '" + t + "'");
-            throw ((e.code = "MODULE_NOT_FOUND"), e);
+        function i(e) {
+          if (!n.o(r, e)) {
+            var t = new Error("Cannot find module '" + e + "'");
+            throw ((t.code = "MODULE_NOT_FOUND"), t);
           }
-          return r[t];
+          return r[e];
         }
         (o.keys = function () {
           return Object.keys(r);
         }),
           (o.resolve = i),
-          (t.exports = o),
+          (e.exports = o),
           (o.id = 335);
       },
-      297: (t, e, n) => {
+      297: (e, t, n) => {
         "use strict";
-        t.exports = n.p + "3c856104bdf6659e8a9d.svg";
+        e.exports = n.p + "3c856104bdf6659e8a9d.svg";
       },
-      535: (t, e, n) => {
+      535: (e, t, n) => {
         "use strict";
-        t.exports = n.p + "7e1849bcc60589f5a8a5.svg";
+        e.exports = n.p + "7e1849bcc60589f5a8a5.svg";
       },
-      158: (t, e, n) => {
+      158: (e, t, n) => {
         "use strict";
-        t.exports = n.p + "ea2a3d136f1ad1fbbef9.svg";
+        e.exports = n.p + "ea2a3d136f1ad1fbbef9.svg";
       },
-      935: (t, e, n) => {
+      935: (e, t, n) => {
         "use strict";
-        t.exports = n.p + "caa3382377dd3c633b07.svg";
+        e.exports = n.p + "caa3382377dd3c633b07.svg";
       },
-      370: (t, e, n) => {
+      370: (e, t, n) => {
         "use strict";
-        t.exports = n.p + "194734dc40e808b7b641.svg";
+        e.exports = n.p + "194734dc40e808b7b641.svg";
       },
-      670: (t, e, n) => {
+      670: (e, t, n) => {
         "use strict";
-        t.exports = n.p + "5c02620f7ce7718af45f.svg";
+        e.exports = n.p + "5c02620f7ce7718af45f.svg";
       },
-      282: (t, e, n) => {
+      282: (e, t, n) => {
         "use strict";
-        t.exports = n.p + "40385df2f985d1962cf2.svg";
+        e.exports = n.p + "40385df2f985d1962cf2.svg";
       },
-      463: (t, e, n) => {
+      463: (e, t, n) => {
         "use strict";
-        t.exports = n.p + "554f5d153aad2948e0c7.svg";
+        e.exports = n.p + "554f5d153aad2948e0c7.svg";
       },
-      200: (t, e, n) => {
+      200: (e, t, n) => {
         "use strict";
-        t.exports = n.p + "3b0870b8414a1c9a0a2a.svg";
+        e.exports = n.p + "3b0870b8414a1c9a0a2a.svg";
       },
-      807: (t, e, n) => {
+      807: (e, t, n) => {
         "use strict";
-        t.exports = n.p + "2edc70468384b78f121f.svg";
+        e.exports = n.p + "2edc70468384b78f121f.svg";
       },
-      765: (t, e, n) => {
+      765: (e, t, n) => {
         "use strict";
-        t.exports = n.p + "555cdca3f0dd966e94f5.svg";
+        e.exports = n.p + "555cdca3f0dd966e94f5.svg";
       },
-      321: (t, e, n) => {
+      321: (e, t, n) => {
         "use strict";
-        t.exports = n.p + "bad03b245603240e266d.svg";
+        e.exports = n.p + "bad03b245603240e266d.svg";
       },
-      11: (t, e, n) => {
+      11: (e, t, n) => {
         "use strict";
-        t.exports = n.p + "f7fcf7e37c7dcddb6e41.svg";
+        e.exports = n.p + "f7fcf7e37c7dcddb6e41.svg";
       },
-      510: (t, e, n) => {
+      510: (e, t, n) => {
         "use strict";
-        t.exports = n.p + "bc5ab9077f5397a1f72c.svg";
+        e.exports = n.p + "bc5ab9077f5397a1f72c.svg";
       },
-      585: (t, e, n) => {
+      585: (e, t, n) => {
         "use strict";
-        t.exports = n.p + "f798d8b3854dd079b61e.svg";
+        e.exports = n.p + "f798d8b3854dd079b61e.svg";
       },
-      393: (t, e, n) => {
+      393: (e, t, n) => {
         "use strict";
-        t.exports = n.p + "af87264ffc6d74b6dbd9.svg";
+        e.exports = n.p + "af87264ffc6d74b6dbd9.svg";
       },
     },
-    e = {};
+    t = {};
   function n(r) {
-    var o = e[r];
+    var o = t[r];
     if (void 0 !== o) return o.exports;
-    var i = (e[r] = { exports: {} });
-    return t[r](i, i.exports, n), i.exports;
+    var i = (t[r] = { exports: {} });
+    return e[r](i, i.exports, n), i.exports;
   }
   (n.g = (function () {
     if ("object" == typeof globalThis) return globalThis;
     try {
       return this || new Function("return this")();
-    } catch (t) {
+    } catch (e) {
       if ("object" == typeof window) return window;
     }
   })()),
-    (n.o = (t, e) => Object.prototype.hasOwnProperty.call(t, e)),
+    (n.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
     (() => {
-      var t;
-      n.g.importScripts && (t = n.g.location + "");
-      var e = n.g.document;
-      if (!t && e && (e.currentScript && (t = e.currentScript.src), !t)) {
-        var r = e.getElementsByTagName("script");
-        r.length && (t = r[r.length - 1].src);
+      var e;
+      n.g.importScripts && (e = n.g.location + "");
+      var t = n.g.document;
+      if (!e && t && (t.currentScript && (e = t.currentScript.src), !e)) {
+        var r = t.getElementsByTagName("script");
+        r.length && (e = r[r.length - 1].src);
       }
-      if (!t)
+      if (!e)
         throw new Error(
           "Automatic publicPath is not supported in this browser"
         );
-      (t = t
+      (e = e
         .replace(/#.*$/, "")
         .replace(/\?.*$/, "")
         .replace(/\/[^\/]+$/, "/")),
-        (n.p = t);
+        (n.p = e);
     })(),
     (() => {
       "use strict";
-      function t(t, e) {
-        if (!(t instanceof e))
+      function e(e, t) {
+        if (!(e instanceof t))
           throw new TypeError("Cannot call a class as a function");
       }
-      function e(t, e) {
-        for (var n = 0; n < e.length; n++) {
-          var r = e[n];
+      function t(e, t) {
+        for (var n = 0; n < t.length; n++) {
+          var r = t[n];
           (r.enumerable = r.enumerable || !1),
             (r.configurable = !0),
             "value" in r && (r.writable = !0),
-            Object.defineProperty(t, r.key, r);
+            Object.defineProperty(e, r.key, r);
         }
       }
       var r = {},
         o = (function () {
           function o() {
-            var e =
+            var t =
               arguments.length > 0 && void 0 !== arguments[0]
                 ? arguments[0]
                 : o.random();
-            t(this, o),
-              (this.name = e),
-              r[e]
-                ? (this.img = r[e].cloneNode())
+            e(this, o),
+              (this.name = t),
+              r[t]
+                ? (this.img = r[t].cloneNode())
                 : ((this.img = new Image()),
-                  (this.img.src = n(335)("./".concat(e, ".svg"))),
-                  (r[e] = this.img));
+                  (this.img.src = n(335)("./".concat(t, ".svg"))),
+                  (r[t] = this.img));
           }
           var i, a;
           return (
@@ -173,8 +173,8 @@
               {
                 key: "preload",
                 value: function () {
-                  o.symbols.forEach(function (t) {
-                    return new o(t);
+                  o.symbols.forEach(function (e) {
+                    return new o(e);
                   });
                 },
               },
@@ -210,29 +210,29 @@
                 },
               },
             ]),
-            null && e(i.prototype, null),
-            a && e(i, a),
+            null && t(i.prototype, null),
+            a && t(i, a),
             Object.defineProperty(i, "prototype", { writable: !1 }),
             o
           );
         })();
-      function i(t, e) {
-        for (var n = 0; n < e.length; n++) {
-          var r = e[n];
+      function i(e, t) {
+        for (var n = 0; n < t.length; n++) {
+          var r = t[n];
           (r.enumerable = r.enumerable || !1),
             (r.configurable = !0),
             "value" in r && (r.writable = !0),
-            Object.defineProperty(t, r.key, r);
+            Object.defineProperty(e, r.key, r);
         }
       }
       var a = (function () {
-        function t(e, n, r) {
+        function e(t, n, r) {
           var i = this;
-          !(function (t, e) {
-            if (!(t instanceof e))
+          !(function (e, t) {
+            if (!(e instanceof t))
               throw new TypeError("Cannot call a class as a function");
-          })(this, t),
-            (this.reelContainer = e),
+          })(this, e),
+            (this.reelContainer = t),
             (this.idx = n),
             (this.symbolContainer = document.createElement("div")),
             this.symbolContainer.classList.add("icons"),
@@ -244,7 +244,7 @@
                 {
                   transform: "translateY(-".concat(
                     ((10 * Math.floor(this.factor)) /
-                      (3 + 10 * Math.floor(this.factor))) *
+                      (5 + 10 * Math.floor(this.factor))) *
                       100,
                     "%)"
                   ),
@@ -254,13 +254,13 @@
               { duration: 1e3 * this.factor, easing: "ease-in-out" }
             )),
             this.animation.cancel(),
-            r.forEach(function (t) {
-              return i.symbolContainer.appendChild(new o(t).img);
+            r.forEach(function (e) {
+              return i.symbolContainer.appendChild(new o(e).img);
             });
         }
-        var e, n;
+        var t, n;
         return (
-          (e = t),
+          (t = e),
           (n = [
             {
               key: "factor",
@@ -270,93 +270,93 @@
             },
             {
               key: "renderSymbols",
-              value: function (t) {
+              value: function (e) {
                 for (
-                  var e = document.createDocumentFragment(), n = 3;
-                  n < 3 + 10 * Math.floor(this.factor);
+                  var t = document.createDocumentFragment(), n = 5;
+                  n < 5 + 10 * Math.floor(this.factor);
                   n++
                 ) {
                   var r = new o(
                     n >= 10 * Math.floor(this.factor) - 2
-                      ? t[n - 10 * Math.floor(this.factor)]
+                      ? e[n - 10 * Math.floor(this.factor)]
                       : void 0
                   );
-                  e.appendChild(r.img);
+                  t.appendChild(r.img);
                 }
-                this.symbolContainer.appendChild(e);
+                this.symbolContainer.appendChild(t);
               },
             },
             {
               key: "spin",
               value: function () {
-                var t = this,
-                  e = new Promise(function (e) {
-                    return (t.animation.onfinish = e);
+                var e = this,
+                  t = new Promise(function (t) {
+                    return (e.animation.onfinish = t);
                   }),
-                  n = new Promise(function (e) {
-                    return setTimeout(e, 1e3 * t.factor);
+                  n = new Promise(function (t) {
+                    return setTimeout(t, 1e3 * e.factor);
                   });
                 return (
                   this.animation.play(),
-                  Promise.race([e, n]).then(function () {
-                    "finished" !== t.animation.playState &&
-                      t.animation.finish();
+                  Promise.race([t, n]).then(function () {
+                    "finished" !== e.animation.playState &&
+                      e.animation.finish();
                     for (
-                      var e = t.symbolContainer.children.length - 3, n = 0;
-                      n < e;
+                      var t = e.symbolContainer.children.length - 5, n = 0;
+                      n < t;
                       n++
                     )
-                      t.symbolContainer.firstChild.remove();
+                      e.symbolContainer.firstChild.remove();
                   })
                 );
               },
             },
-          ]) && i(e.prototype, n),
-          Object.defineProperty(e, "prototype", { writable: !1 }),
-          t
+          ]) && i(t.prototype, n),
+          Object.defineProperty(t, "prototype", { writable: !1 }),
+          e
         );
       })();
-      function s(t, e) {
-        if (!(t instanceof e))
+      function s(e, t) {
+        if (!(e instanceof t))
           throw new TypeError("Cannot call a class as a function");
       }
-      function l(t, e) {
-        for (var n = 0; n < e.length; n++) {
-          var r = e[n];
+      function p(e, t) {
+        for (var n = 0; n < t.length; n++) {
+          var r = t[n];
           (r.enumerable = r.enumerable || !1),
             (r.configurable = !0),
             "value" in r && (r.writable = !0),
-            Object.defineProperty(t, r.key, r);
+            Object.defineProperty(e, r.key, r);
         }
       }
-      var p = (function () {
-          function t(e) {
+      var l = (function () {
+          function e(t) {
             var n = this,
               r =
                 arguments.length > 1 && void 0 !== arguments[1]
                   ? arguments[1]
                   : {};
-            s(this, t),
+            s(this, e),
               o.preload(),
               (this.currentSymbols = [
-                ["Apple", "Apple", "Apple"],
-                ["Apple", "Apple", "Apple"],
-                ["Apple", "Apple", "Apple"],
-                ["Apple", "Apple", "Apple"],
-                ["Apple", "Apple", "Apple"],
+                ["Apple", "Apple", "Apple", "Apple", "Apple"],
+                ["Apple", "Apple", "Apple", "Apple", "Apple"],
+                ["Apple", "Apple", "Apple", "Apple", "Apple"],
+                ["Apple", "Apple", "Apple", "Apple", "Apple"],
+                ["Apple", "Apple", "Apple", "Apple", "Apple"],
               ]),
               (this.nextSymbols = [
-                ["Apple", "Apple", "Apple"],
-                ["Apple", "Apple", "Apple"],
-                ["Apple", "Apple", "Apple"],
-                ["Apple", "Apple", "Apple"],
-                ["Apple", "Apple", "Apple"],
+                ["Apple", "Apple", "Apple", "Apple", "Apple"],
+                ["Apple", "Apple", "Apple", "Apple", "Apple"],
+                ["Apple", "Apple", "Apple", "Apple", "Apple"],
+                ["Apple", "Apple", "Apple", "Apple", "Apple"],
+                ["Apple", "Apple", "Apple", "Apple", "Apple"],
               ]),
-              (this.container = e),
+              (this.container = t),
               (this.reels = Array.from(
                 this.container.getElementsByClassName("reel")
-              ).map(function (t, e) {
-                return new a(t, e, n.currentSymbols[e]);
+              ).map(function (e, t) {
+                return new a(e, t, n.currentSymbols[t]);
               })),
               (this.spinButton = document.getElementById("spin")),
               this.spinButton.addEventListener("click", function () {
@@ -366,55 +366,85 @@
               r.inverted && this.container.classList.add("inverted"),
               (this.config = r);
           }
-          var e, n;
+          var t, n;
           return (
-            (e = t),
+            (t = e),
             (n = [
               {
                 key: "spin",
                 value: function () {
-                  var t = this;
+                  var e = this;
                   return (
                     (this.currentSymbols = this.nextSymbols),
                     (this.nextSymbols = [
-                      [o.random(), o.random(), o.random()],
-                      [o.random(), o.random(), o.random()],
-                      [o.random(), o.random(), o.random()],
-                      [o.random(), o.random(), o.random()],
-                      [o.random(), o.random(), o.random()],
+                      [
+                        o.random(),
+                        o.random(),
+                        o.random(),
+                        o.random(),
+                        o.random(),
+                      ],
+                      [
+                        o.random(),
+                        o.random(),
+                        o.random(),
+                        o.random(),
+                        o.random(),
+                      ],
+                      [
+                        o.random(),
+                        o.random(),
+                        o.random(),
+                        o.random(),
+                        o.random(),
+                      ],
+                      [
+                        o.random(),
+                        o.random(),
+                        o.random(),
+                        o.random(),
+                        o.random(),
+                      ],
+                      [
+                        o.random(),
+                        o.random(),
+                        o.random(),
+                        o.random(),
+                        o.random(),
+                      ],
                     ]),
                     this.onSpinStart(this.nextSymbols),
                     Promise.all(
-                      this.reels.map(function (e) {
-                        return e.renderSymbols(t.nextSymbols[e.idx]), e.spin();
+                      this.reels.map(function (t) {
+                        return t.renderSymbols(e.nextSymbols[t.idx]), t.spin();
                       })
                     ).then(function () {
-                      return t.onSpinEnd(t.nextSymbols);
+                      return e.onSpinEnd(e.nextSymbols);
                     })
                   );
                 },
               },
               {
                 key: "onSpinStart",
-                value: function (t) {
-                  var e, n;
+                value: function (e) {
+                  var t, n;
                   (this.spinButton.disabled = !0),
-                    null === (e = (n = this.config).onSpinStart) ||
-                      void 0 === e ||
-                      e.call(n, t);
+                    null === (t = (n = this.config).onSpinStart) ||
+                      void 0 === t ||
+                      t.call(n, e);
                 },
               },
               {
                 key: "onSpinEnd",
-                value: function (t) {
-                  var e,
+                value: function (e) {
+                  var t,
                     n,
                     r = this;
                   if (
                     ((this.spinButton.disabled = !1),
-                    null === (e = (n = this.config).onSpinEnd) ||
-                      void 0 === e ||
-                      e.call(n, t),
+                    null === (t = (n = this.config).onSpinEnd) ||
+                      void 0 === t ||
+                      t.call(n, e),
                     this.autoPlayCheckbox.checked)
                   )
                     return window.setTimeout(function () {
@@ -422,20 +452,20 @@
                     }, 200);
                 },
               },
-            ]) && l(e.prototype, n),
-            Object.defineProperty(e, "prototype", { writable: !1 }),
-            t
+            ]) && p(t.prototype, n),
+            Object.defineProperty(t, "prototype", { writable: !1 }),
+            e
           );
         })(),
         c = {
           inverted: !1,
-          onSpinStart: function (t) {
-            console.log("onSpinStart", t);
+          onSpinStart: function (e) {
+            console.log("onSpinStart", e);
           },
-          onSpinEnd: function (t) {
-            console.log("onSpinEnd", t);
+          onSpinEnd: function (e) {
+            console.log("onSpinEnd", e);
           },
         };
-      new p(document.getElementById("slot"), c);
+      new l(document.getElementById("slot"), c);
     })();
 })();

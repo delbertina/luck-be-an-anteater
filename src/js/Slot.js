@@ -6,19 +6,19 @@ export default class Slot {
     Symbol.preload();
 
     this.currentSymbols = [
-      ["Apple", "Apple", "Apple"],
-      ["Apple", "Apple", "Apple"],
-      ["Apple", "Apple", "Apple"],
-      ["Apple", "Apple", "Apple"],
-      ["Apple", "Apple", "Apple"],
+      ["Apple", "Apple", "Apple", "Apple", "Apple"],
+      ["Apple", "Apple", "Apple", "Apple", "Apple"],
+      ["Apple", "Apple", "Apple", "Apple", "Apple"],
+      ["Apple", "Apple", "Apple", "Apple", "Apple"],
+      ["Apple", "Apple", "Apple", "Apple", "Apple"],
     ];
 
     this.nextSymbols = [
-      ["Apple", "Apple", "Apple"],
-      ["Apple", "Apple", "Apple"],
-      ["Apple", "Apple", "Apple"],
-      ["Apple", "Apple", "Apple"],
-      ["Apple", "Apple", "Apple"],
+      ["Apple", "Apple", "Apple", "Apple", "Apple"],
+      ["Apple", "Apple", "Apple", "Apple", "Apple"],
+      ["Apple", "Apple", "Apple", "Apple", "Apple"],
+      ["Apple", "Apple", "Apple", "Apple", "Apple"],
+      ["Apple", "Apple", "Apple", "Apple", "Apple"],
     ];
 
     this.container = domElement;
@@ -43,11 +43,41 @@ export default class Slot {
   spin() {
     this.currentSymbols = this.nextSymbols;
     this.nextSymbols = [
-      [Symbol.random(), Symbol.random(), Symbol.random()],
-      [Symbol.random(), Symbol.random(), Symbol.random()],
-      [Symbol.random(), Symbol.random(), Symbol.random()],
-      [Symbol.random(), Symbol.random(), Symbol.random()],
-      [Symbol.random(), Symbol.random(), Symbol.random()],
+      [
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+      ],
+      [
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+      ],
+      [
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+      ],
+      [
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+      ],
+      [
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+      ],
     ];
 
     this.onSpinStart(this.nextSymbols);
