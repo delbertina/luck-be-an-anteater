@@ -1,6 +1,6 @@
 (() => {
-  var e = {
-      335: (e, t, n) => {
+  var t = {
+      335: (t, e, n) => {
         var r = {
           "./Apple.svg": 297,
           "./Avocado.svg": 535,
@@ -19,152 +19,152 @@
           "./Tomato.svg": 585,
           "./Watermelon.svg": 393,
         };
-        function o(e) {
-          var t = i(e);
-          return n(t);
+        function o(t) {
+          var e = i(t);
+          return n(e);
         }
-        function i(e) {
-          if (!n.o(r, e)) {
-            var t = new Error("Cannot find module '" + e + "'");
-            throw ((t.code = "MODULE_NOT_FOUND"), t);
+        function i(t) {
+          if (!n.o(r, t)) {
+            var e = new Error("Cannot find module '" + t + "'");
+            throw ((e.code = "MODULE_NOT_FOUND"), e);
           }
-          return r[e];
+          return r[t];
         }
         (o.keys = function () {
           return Object.keys(r);
         }),
           (o.resolve = i),
-          (e.exports = o),
+          (t.exports = o),
           (o.id = 335);
       },
-      297: (e, t, n) => {
+      297: (t, e, n) => {
         "use strict";
-        e.exports = n.p + "3c856104bdf6659e8a9d.svg";
+        t.exports = n.p + "3c856104bdf6659e8a9d.svg";
       },
-      535: (e, t, n) => {
+      535: (t, e, n) => {
         "use strict";
-        e.exports = n.p + "7e1849bcc60589f5a8a5.svg";
+        t.exports = n.p + "7e1849bcc60589f5a8a5.svg";
       },
-      158: (e, t, n) => {
+      158: (t, e, n) => {
         "use strict";
-        e.exports = n.p + "ea2a3d136f1ad1fbbef9.svg";
+        t.exports = n.p + "ea2a3d136f1ad1fbbef9.svg";
       },
-      935: (e, t, n) => {
+      935: (t, e, n) => {
         "use strict";
-        e.exports = n.p + "caa3382377dd3c633b07.svg";
+        t.exports = n.p + "caa3382377dd3c633b07.svg";
       },
-      370: (e, t, n) => {
+      370: (t, e, n) => {
         "use strict";
-        e.exports = n.p + "194734dc40e808b7b641.svg";
+        t.exports = n.p + "194734dc40e808b7b641.svg";
       },
-      670: (e, t, n) => {
+      670: (t, e, n) => {
         "use strict";
-        e.exports = n.p + "5c02620f7ce7718af45f.svg";
+        t.exports = n.p + "5c02620f7ce7718af45f.svg";
       },
-      282: (e, t, n) => {
+      282: (t, e, n) => {
         "use strict";
-        e.exports = n.p + "40385df2f985d1962cf2.svg";
+        t.exports = n.p + "40385df2f985d1962cf2.svg";
       },
-      463: (e, t, n) => {
+      463: (t, e, n) => {
         "use strict";
-        e.exports = n.p + "554f5d153aad2948e0c7.svg";
+        t.exports = n.p + "554f5d153aad2948e0c7.svg";
       },
-      200: (e, t, n) => {
+      200: (t, e, n) => {
         "use strict";
-        e.exports = n.p + "3b0870b8414a1c9a0a2a.svg";
+        t.exports = n.p + "3b0870b8414a1c9a0a2a.svg";
       },
-      807: (e, t, n) => {
+      807: (t, e, n) => {
         "use strict";
-        e.exports = n.p + "2edc70468384b78f121f.svg";
+        t.exports = n.p + "2edc70468384b78f121f.svg";
       },
-      765: (e, t, n) => {
+      765: (t, e, n) => {
         "use strict";
-        e.exports = n.p + "555cdca3f0dd966e94f5.svg";
+        t.exports = n.p + "555cdca3f0dd966e94f5.svg";
       },
-      321: (e, t, n) => {
+      321: (t, e, n) => {
         "use strict";
-        e.exports = n.p + "bad03b245603240e266d.svg";
+        t.exports = n.p + "bad03b245603240e266d.svg";
       },
-      11: (e, t, n) => {
+      11: (t, e, n) => {
         "use strict";
-        e.exports = n.p + "f7fcf7e37c7dcddb6e41.svg";
+        t.exports = n.p + "f7fcf7e37c7dcddb6e41.svg";
       },
-      510: (e, t, n) => {
+      510: (t, e, n) => {
         "use strict";
-        e.exports = n.p + "bc5ab9077f5397a1f72c.svg";
+        t.exports = n.p + "bc5ab9077f5397a1f72c.svg";
       },
-      585: (e, t, n) => {
+      585: (t, e, n) => {
         "use strict";
-        e.exports = n.p + "f798d8b3854dd079b61e.svg";
+        t.exports = n.p + "f798d8b3854dd079b61e.svg";
       },
-      393: (e, t, n) => {
+      393: (t, e, n) => {
         "use strict";
-        e.exports = n.p + "af87264ffc6d74b6dbd9.svg";
+        t.exports = n.p + "af87264ffc6d74b6dbd9.svg";
       },
     },
-    t = {};
+    e = {};
   function n(r) {
-    var o = t[r];
+    var o = e[r];
     if (void 0 !== o) return o.exports;
-    var i = (t[r] = { exports: {} });
-    return e[r](i, i.exports, n), i.exports;
+    var i = (e[r] = { exports: {} });
+    return t[r](i, i.exports, n), i.exports;
   }
   (n.g = (function () {
     if ("object" == typeof globalThis) return globalThis;
     try {
       return this || new Function("return this")();
-    } catch (e) {
+    } catch (t) {
       if ("object" == typeof window) return window;
     }
   })()),
-    (n.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
+    (n.o = (t, e) => Object.prototype.hasOwnProperty.call(t, e)),
     (() => {
-      var e;
-      n.g.importScripts && (e = n.g.location + "");
-      var t = n.g.document;
-      if (!e && t && (t.currentScript && (e = t.currentScript.src), !e)) {
-        var r = t.getElementsByTagName("script");
-        r.length && (e = r[r.length - 1].src);
+      var t;
+      n.g.importScripts && (t = n.g.location + "");
+      var e = n.g.document;
+      if (!t && e && (e.currentScript && (t = e.currentScript.src), !t)) {
+        var r = e.getElementsByTagName("script");
+        r.length && (t = r[r.length - 1].src);
       }
-      if (!e)
+      if (!t)
         throw new Error(
           "Automatic publicPath is not supported in this browser"
         );
-      (e = e
+      (t = t
         .replace(/#.*$/, "")
         .replace(/\?.*$/, "")
         .replace(/\/[^\/]+$/, "/")),
-        (n.p = e);
+        (n.p = t);
     })(),
     (() => {
       "use strict";
-      function e(e, t) {
-        if (!(e instanceof t))
+      function t(t, e) {
+        if (!(t instanceof e))
           throw new TypeError("Cannot call a class as a function");
       }
-      function t(e, t) {
-        for (var n = 0; n < t.length; n++) {
-          var r = t[n];
+      function e(t, e) {
+        for (var n = 0; n < e.length; n++) {
+          var r = e[n];
           (r.enumerable = r.enumerable || !1),
             (r.configurable = !0),
             "value" in r && (r.writable = !0),
-            Object.defineProperty(e, r.key, r);
+            Object.defineProperty(t, r.key, r);
         }
       }
       var r = {},
         o = (function () {
           function o() {
-            var t =
+            var e =
               arguments.length > 0 && void 0 !== arguments[0]
                 ? arguments[0]
                 : o.random();
-            e(this, o),
-              (this.name = t),
-              r[t]
-                ? (this.img = r[t].cloneNode())
+            t(this, o),
+              (this.name = e),
+              r[e]
+                ? (this.img = r[e].cloneNode())
                 : ((this.img = new Image()),
-                  (this.img.src = n(335)("./".concat(t, ".svg"))),
-                  (r[t] = this.img));
+                  (this.img.src = n(335)("./".concat(e, ".svg"))),
+                  (r[e] = this.img));
           }
           var i, a;
           return (
@@ -173,8 +173,8 @@
               {
                 key: "preload",
                 value: function () {
-                  o.symbols.forEach(function (e) {
-                    return new o(e);
+                  o.symbols.forEach(function (t) {
+                    return new o(t);
                   });
                 },
               },
@@ -210,29 +210,29 @@
                 },
               },
             ]),
-            null && t(i.prototype, null),
-            a && t(i, a),
+            null && e(i.prototype, null),
+            a && e(i, a),
             Object.defineProperty(i, "prototype", { writable: !1 }),
             o
           );
         })();
-      function i(e, t) {
-        for (var n = 0; n < t.length; n++) {
-          var r = t[n];
+      function i(t, e) {
+        for (var n = 0; n < e.length; n++) {
+          var r = e[n];
           (r.enumerable = r.enumerable || !1),
             (r.configurable = !0),
             "value" in r && (r.writable = !0),
-            Object.defineProperty(e, r.key, r);
+            Object.defineProperty(t, r.key, r);
         }
       }
       var a = (function () {
-        function e(t, n, r) {
+        function t(e, n, r) {
           var i = this;
-          !(function (e, t) {
-            if (!(e instanceof t))
+          !(function (t, e) {
+            if (!(t instanceof e))
               throw new TypeError("Cannot call a class as a function");
-          })(this, e),
-            (this.reelContainer = t),
+          })(this, t),
+            (this.reelContainer = e),
             (this.idx = n),
             (this.symbolContainer = document.createElement("div")),
             this.symbolContainer.classList.add("icons"),
@@ -254,13 +254,13 @@
               { duration: 1e3 * this.factor, easing: "ease-in-out" }
             )),
             this.animation.cancel(),
-            r.forEach(function (e) {
-              return i.symbolContainer.appendChild(new o(e).img);
+            r.forEach(function (t) {
+              return i.symbolContainer.appendChild(new o(t).img);
             });
         }
-        var t, n;
+        var e, n;
         return (
-          (t = e),
+          (e = t),
           (n = [
             {
               key: "factor",
@@ -270,93 +270,81 @@
             },
             {
               key: "renderSymbols",
-              value: function (e) {
+              value: function (t) {
                 for (
-                  var t = document.createDocumentFragment(), n = 5;
+                  var e = document.createDocumentFragment(), n = 5;
                   n < 5 + 10 * Math.floor(this.factor);
                   n++
                 ) {
                   var r = new o(
                     n >= 10 * Math.floor(this.factor) - 2
-                      ? e[n - 10 * Math.floor(this.factor)]
+                      ? t[n - 10 * Math.floor(this.factor)]
                       : void 0
                   );
-                  t.appendChild(r.img);
+                  e.appendChild(r.img);
                 }
-                this.symbolContainer.appendChild(t);
+                this.symbolContainer.appendChild(e);
               },
             },
             {
               key: "spin",
               value: function () {
-                var e = this,
-                  t = new Promise(function (t) {
-                    return (e.animation.onfinish = t);
+                var t = this,
+                  e = new Promise(function (e) {
+                    return (t.animation.onfinish = e);
                   }),
-                  n = new Promise(function (t) {
-                    return setTimeout(t, 1e3 * e.factor);
+                  n = new Promise(function (e) {
+                    return setTimeout(e, 1e3 * t.factor);
                   });
                 return (
                   this.animation.play(),
-                  Promise.race([t, n]).then(function () {
-                    "finished" !== e.animation.playState &&
-                      e.animation.finish();
+                  Promise.race([e, n]).then(function () {
+                    "finished" !== t.animation.playState &&
+                      t.animation.finish();
                     for (
-                      var t = e.symbolContainer.children.length - 5, n = 0;
-                      n < t;
+                      var e = t.symbolContainer.children.length - 5, n = 0;
+                      n < e;
                       n++
                     )
-                      e.symbolContainer.firstChild.remove();
+                      t.symbolContainer.firstChild.remove();
                   })
                 );
               },
             },
-          ]) && i(t.prototype, n),
-          Object.defineProperty(t, "prototype", { writable: !1 }),
-          e
+          ]) && i(e.prototype, n),
+          Object.defineProperty(e, "prototype", { writable: !1 }),
+          t
         );
       })();
-      function s(e, t) {
-        if (!(e instanceof t))
+      function s(t, e) {
+        if (!(t instanceof e))
           throw new TypeError("Cannot call a class as a function");
       }
-      function p(e, t) {
-        for (var n = 0; n < t.length; n++) {
-          var r = t[n];
+      function c(t, e) {
+        for (var n = 0; n < e.length; n++) {
+          var r = e[n];
           (r.enumerable = r.enumerable || !1),
             (r.configurable = !0),
             "value" in r && (r.writable = !0),
-            Object.defineProperty(e, r.key, r);
+            Object.defineProperty(t, r.key, r);
         }
       }
       var l = (function () {
-          function e(t) {
+          function t(e) {
             var n = this,
               r =
                 arguments.length > 1 && void 0 !== arguments[1]
                   ? arguments[1]
                   : {};
-            s(this, e),
+            s(this, t),
               o.preload(),
-              (this.currentSymbols = [
-                ["Apple", "Apple", "Apple", "Apple", "Apple"],
-                ["Apple", "Apple", "Apple", "Apple", "Apple"],
-                ["Apple", "Apple", "Apple", "Apple", "Apple"],
-                ["Apple", "Apple", "Apple", "Apple", "Apple"],
-                ["Apple", "Apple", "Apple", "Apple", "Apple"],
-              ]),
-              (this.nextSymbols = [
-                ["Apple", "Apple", "Apple", "Apple", "Apple"],
-                ["Apple", "Apple", "Apple", "Apple", "Apple"],
-                ["Apple", "Apple", "Apple", "Apple", "Apple"],
-                ["Apple", "Apple", "Apple", "Apple", "Apple"],
-                ["Apple", "Apple", "Apple", "Apple", "Apple"],
-              ]),
-              (this.container = t),
+              (this.currentSymbols = this.getNewSymbols()),
+              (this.nextSymbols = this.getNewSymbols()),
+              (this.container = e),
               (this.reels = Array.from(
                 this.container.getElementsByClassName("reel")
-              ).map(function (e, t) {
-                return new a(e, t, n.currentSymbols[t]);
+              ).map(function (t, e) {
+                return new a(t, e, n.currentSymbols[e]);
               })),
               (this.spinButton = document.getElementById("spin")),
               this.spinButton.addEventListener("click", function () {
@@ -366,85 +354,49 @@
               r.inverted && this.container.classList.add("inverted"),
               (this.config = r);
           }
-          var t, n;
+          var e, n;
           return (
-            (t = e),
+            (e = t),
             (n = [
               {
                 key: "spin",
                 value: function () {
-                  var e = this;
+                  var t = this;
                   return (
                     (this.currentSymbols = this.nextSymbols),
-                    (this.nextSymbols = [
-                      [
-                        o.random(),
-                        o.random(),
-                        o.random(),
-                        o.random(),
-                        o.random(),
-                      ],
-                      [
-                        o.random(),
-                        o.random(),
-                        o.random(),
-                        o.random(),
-                        o.random(),
-                      ],
-                      [
-                        o.random(),
-                        o.random(),
-                        o.random(),
-                        o.random(),
-                        o.random(),
-                      ],
-                      [
-                        o.random(),
-                        o.random(),
-                        o.random(),
-                        o.random(),
-                        o.random(),
-                      ],
-                      [
-                        o.random(),
-                        o.random(),
-                        o.random(),
-                        o.random(),
-                        o.random(),
-                      ],
-                    ]),
+                    (this.nextSymbols = this.getNewSymbols()),
                     this.onSpinStart(this.nextSymbols),
                     Promise.all(
-                      this.reels.map(function (t) {
-                        return t.renderSymbols(e.nextSymbols[t.idx]), t.spin();
+                      this.reels.map(function (e) {
+                        return e.renderSymbols(t.nextSymbols[e.idx]), e.spin();
                       })
                     ).then(function () {
-                      return e.onSpinEnd(e.nextSymbols);
+                      return t.onSpinEnd(t.nextSymbols);
                     })
                   );
                 },
               },
               {
                 key: "onSpinStart",
-                value: function (e) {
-                  var t, n;
+                value: function (t) {
+                  var e, n;
                   (this.spinButton.disabled = !0),
-                    null === (t = (n = this.config).onSpinStart) ||
-                      void 0 === t ||
-                      t.call(n, e);
+                    null === (e = (n = this.config).onSpinStart) ||
+                      void 0 === e ||
+                      e.call(n, t);
                 },
               },
               {
                 key: "onSpinEnd",
-                value: function (e) {
-                  var t,
+                value: function (t) {
+                  var e,
                     n,
                     r = this;
                   if (
                     ((this.spinButton.disabled = !1),
-                    null === (t = (n = this.config).onSpinEnd) ||
-                      void 0 === t ||
-                      t.call(n, e),
+                    null === (e = (n = this.config).onSpinEnd) ||
+                      void 0 === e ||
+                      e.call(n, t),
                     this.autoPlayCheckbox.checked)
                   )
                     return window.setTimeout(function () {
@@ -452,20 +404,62 @@
                     }, 200);
                 },
               },
-            ]) && p(t.prototype, n),
-            Object.defineProperty(t, "prototype", { writable: !1 }),
-            e
+              {
+                key: "getNewSymbols",
+                value: function () {
+                  return [
+                    [
+                      o.random(),
+                      o.random(),
+                      o.random(),
+                      o.random(),
+                      o.random(),
+                    ],
+                    [
+                      o.random(),
+                      o.random(),
+                      o.random(),
+                      o.random(),
+                      o.random(),
+                    ],
+                    [
+                      o.random(),
+                      o.random(),
+                      o.random(),
+                      o.random(),
+                      o.random(),
+                    ],
+                    [
+                      o.random(),
+                      o.random(),
+                      o.random(),
+                      o.random(),
+                      o.random(),
+                    ],
+                    [
+                      o.random(),
+                      o.random(),
+                      o.random(),
+                      o.random(),
+                      o.random(),
+                    ],
+                  ];
+                },
+              },
+            ]) && c(e.prototype, n),
+            Object.defineProperty(e, "prototype", { writable: !1 }),
+            t
           );
         })(),
-        c = {
+        u = {
           inverted: !1,
-          onSpinStart: function (e) {
-            console.log("onSpinStart", e);
+          onSpinStart: function (t) {
+            console.log("onSpinStart", t);
           },
-          onSpinEnd: function (e) {
-            console.log("onSpinEnd", e);
+          onSpinEnd: function (t) {
+            console.log("onSpinEnd", t);
           },
         };
-      new l(document.getElementById("slot"), c);
+      new l(document.getElementById("slot"), u);
     })();
 })();

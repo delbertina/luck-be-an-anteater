@@ -5,21 +5,9 @@ export default class Slot {
   constructor(domElement, config = {}) {
     Symbol.preload();
 
-    this.currentSymbols = [
-      ["Apple", "Apple", "Apple", "Apple", "Apple"],
-      ["Apple", "Apple", "Apple", "Apple", "Apple"],
-      ["Apple", "Apple", "Apple", "Apple", "Apple"],
-      ["Apple", "Apple", "Apple", "Apple", "Apple"],
-      ["Apple", "Apple", "Apple", "Apple", "Apple"],
-    ];
+    this.currentSymbols = this.getNewSymbols();
 
-    this.nextSymbols = [
-      ["Apple", "Apple", "Apple", "Apple", "Apple"],
-      ["Apple", "Apple", "Apple", "Apple", "Apple"],
-      ["Apple", "Apple", "Apple", "Apple", "Apple"],
-      ["Apple", "Apple", "Apple", "Apple", "Apple"],
-      ["Apple", "Apple", "Apple", "Apple", "Apple"],
-    ];
+    this.nextSymbols = this.getNewSymbols();
 
     this.container = domElement;
 
@@ -42,43 +30,7 @@ export default class Slot {
 
   spin() {
     this.currentSymbols = this.nextSymbols;
-    this.nextSymbols = [
-      [
-        Symbol.random(),
-        Symbol.random(),
-        Symbol.random(),
-        Symbol.random(),
-        Symbol.random(),
-      ],
-      [
-        Symbol.random(),
-        Symbol.random(),
-        Symbol.random(),
-        Symbol.random(),
-        Symbol.random(),
-      ],
-      [
-        Symbol.random(),
-        Symbol.random(),
-        Symbol.random(),
-        Symbol.random(),
-        Symbol.random(),
-      ],
-      [
-        Symbol.random(),
-        Symbol.random(),
-        Symbol.random(),
-        Symbol.random(),
-        Symbol.random(),
-      ],
-      [
-        Symbol.random(),
-        Symbol.random(),
-        Symbol.random(),
-        Symbol.random(),
-        Symbol.random(),
-      ],
-    ];
+    this.nextSymbols = this.getNewSymbols();
 
     this.onSpinStart(this.nextSymbols);
 
@@ -104,5 +56,45 @@ export default class Slot {
     if (this.autoPlayCheckbox.checked) {
       return window.setTimeout(() => this.spin(), 200);
     }
+  }
+
+  getNewSymbols() {
+    return [
+      [
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+      ],
+      [
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+      ],
+      [
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+      ],
+      [
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+      ],
+      [
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+        Symbol.random(),
+      ],
+    ];
   }
 }
