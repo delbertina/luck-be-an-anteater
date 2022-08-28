@@ -350,6 +350,7 @@
               this.spinButton.addEventListener("click", function () {
                 return n.spin();
               }),
+              (this.scoreDisplay = document.getElementById("sc")),
               (this.autoPlayCheckbox = document.getElementById("autoplay")),
               r.inverted && this.container.classList.add("inverted"),
               (this.config = r);
@@ -392,11 +393,16 @@
                   var e,
                     n,
                     r = this;
-                  if (
-                    ((this.spinButton.disabled = !1),
+                  (this.spinButton.disabled = !1),
                     null === (e = (n = this.config).onSpinEnd) ||
                       void 0 === e ||
-                      e.call(n, t),
+                      e.call(n, t);
+                  var o = this.scoreDisplay.textContent,
+                    i = Math.ceil(
+                      Number(o.replace(/,/g, "")) + 100 * Math.random()
+                    );
+                  if (
+                    ((this.scoreDisplay.innerHTML = i),
                     this.autoPlayCheckbox.checked)
                   )
                     return window.setTimeout(function () {

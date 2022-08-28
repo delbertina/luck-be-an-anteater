@@ -19,6 +19,8 @@ export default class Slot {
     this.spinButton = document.getElementById("spin");
     this.spinButton.addEventListener("click", () => this.spin());
 
+    this.scoreDisplay = document.getElementById("sc");
+
     this.autoPlayCheckbox = document.getElementById("autoplay");
 
     if (config.inverted) {
@@ -52,6 +54,12 @@ export default class Slot {
     this.spinButton.disabled = false;
 
     this.config.onSpinEnd?.(symbols);
+
+    const tempScoreString = this.scoreDisplay.textContent;
+    const tempScoreNum = Math.ceil(
+      Number(tempScoreString.replace(/,/g, "")) + Math.random() * 100
+    );
+    this.scoreDisplay.innerHTML = tempScoreNum;
 
     if (this.autoPlayCheckbox.checked) {
       return window.setTimeout(() => this.spin(), 200);
